@@ -1,0 +1,67 @@
+/* Common */
+.body {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+/* FirstView */
+.firstView {
+  background: #0058AE;
+}
+
+.firstView img {
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .firstView img {
+    top: 50%;
+    width: 340px;
+    transform: translateX(-50%);
+  }
+}
+
+/* OverView */
+.overView h2 {
+  color: #0058AE;
+}
+
+/* ここからProcess */
+.process {
+  padding: 50px 20px 0 20px;
+}
+
+.process .body {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 2fr 3fr;
+}
+
+.process .imageArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.process img {
+  width: 49%;
+}
+
+.process .contents p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .process {
+    padding: 30px 20px 0 20px;
+  }
+
+  .process .body {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

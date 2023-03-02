@@ -1,0 +1,74 @@
+/* Common */
+.body {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+/* FirstView */
+.firstView {
+  background: linear-gradient(180deg, #10a2fc 0%, #027ac5 100%);
+}
+
+.firstView img {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .firstView img {
+    top: 47%;
+    width: 300px;
+  }
+}
+
+/* OverView */
+.overView h2 {
+  color: #0181CB;
+}
+
+/* ここからProcess */
+.process {
+  padding: 50px 20px;
+}
+
+.process .concept .imageArea {
+  max-width: 840px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.process .concept img {
+  width: 100%;
+}
+
+.process .screen {
+  margin-top: 50px;
+}
+
+.process .screen .imageArea {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.process .screen img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .process {
+    padding: 30px 20px;
+  }
+  
+  .process .concept .imageArea {
+    margin-top: 16px;
+  }
+
+  .process .screen {
+    margin-top: 30px;
+  }
+
+  .process .screen .imageArea {
+    margin-top: 16px;
+  }
+}
