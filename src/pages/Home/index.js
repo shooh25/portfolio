@@ -20,7 +20,7 @@ const Home = () => {
         <div className={styles.body}>
           <img src={CatchCopy} alt="PORTFOLIO" />
           <div className={styles.desc}>
-            <p className="text03">Web site created using <span>React.JS</span></p>
+            <p className="text03">Website created using <span>React.JS</span></p>
           </div>
         </div>
       </section>
